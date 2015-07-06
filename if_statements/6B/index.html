@@ -1,0 +1,22 @@
+<!doctype HTML>
+<html>
+<head>
+  <title>JS Atomic 06-B</title>
+  <script type="text/javascript" src="global.js"></script>
+</head>
+
+<body>
+  <h1>06-B</h1>
+  
+  <h2>Does it matter if the user-provided password matches your password exactly, or is there some flexibility allowed in capitalization?</h2>
+  <p>I believe it must match exactly, I see no flexibility in capitlazition.</p>
+  
+  <h2>Did you use = or == or === to compare passwords (or something else)? Why? Would any of the others work?</h2>
+  <p>I used '=='. The password is stored as a string and all input from prompt is returned as a string so '===' would be redundant in this situation. I believe others would work, and may even be necessary depending on circumstance.</p>
+  
+  <h2>Why is it a bad idea to store a password (or other sensitive information) in plain text in a Javascript file?</h2>
+  <p>It isn't recommended to store a password in a Javascript file because anyone looking at the source could would find the password.</p>
+  
+</body> 
+
+</html>
