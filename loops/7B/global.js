@@ -7,14 +7,8 @@ var start = parseInt(start)
 var end = parseInt(end)
 var count = parseInt(count)
 
-if (start < end) {
-  while (start <= end) {
+for (;start < end; start += count) {
     alert(start)
-    start += count
-  }
-} else {
-  while (end < start) {
+} for (; start > end; start -= count){
     alert(start)
-    start += count
-  }
 }
