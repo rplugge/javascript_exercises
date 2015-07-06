@@ -1,0 +1,30 @@
+<!doctype HTML>
+<html>
+<head>
+  <title>JS Atomic 02</title>
+  <script type="text/javascript" src="global.js"></script>
+</head>
+<body>
+  <h1>JS Atomic 02</h1>
+
+  <h2>What's the difference between alert() and console.log()?</h2>
+  <p>alert() displays a box with the string version of the information passed in the arguements. console.log() adds a comment in the console tab of the webpage inspector.</p>
+
+  <h2>What's one situation where you might use an `alert()` to tell the user something?</h2>
+  <p>You would use an alert to display something that needs the users immediate and undivided attention.</p>
+  <p>If a user forget to fill out a required box in a registration form an alert box could be displayed telling them they haven't finished filling out the form.</p>
+
+  <h2>What's one way that `alert()` might get obnoxious?</h2>
+  <p>The alert boxes must be closed before you can move on in the website. It is important to not over-use alerts in that aspect</p>
+
+  <h2>Would it make sense to use console.log() to tell the user things? Why or why not?</h2>
+  <p>It would not make sense to use console.log to display information to a user. A regular user wouldn't access the inspect element to get to that information.</p>
+  
+  <h2>What's one way that console.log() might be a good tool for you to use?</h2>
+  <p>I would use console.log to give myself comments about the webpage. It's allows you to keep notes without viewing source files</p>
+  
+  <h2>When do the console.log() statements get run? Is it before the first alert() gets displayed? After it gets displayed but before the user clicks "OK" (or equivalent)? After the user clicks to close the dialog box? A different time? How did you find out for sure?</h2>
+  <p>From what I've seen console.log runs in the order of the js. It will run after the first alert, but before the next alert. To find this I loaded the webpage with the console tab open. The alert displayed, and there were no console logs, but immediately after the console logs loaded and then the second alert ran.</p>
+  
+</body>
+</html>
